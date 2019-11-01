@@ -97,10 +97,15 @@ public class Game {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
         if (c1 != null && c2 != null && c3 != null &&
                 cp1 != null && cp2 != null && cp3 != null &&
                 c1.equals(cp1) && c2.equals(cp2) && c3.equals(cp3)) {
+
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
             c1 = cibi.get((String) values[r.nextInt(values.length)]);
             c2 = cibi.get((String) values[r.nextInt(values.length)]);
@@ -119,7 +124,7 @@ public class Game {
                 }
             });
 
-            character.setImage(new Image("file:/home/vale/intellijProjects/FarmVerdure2/out/production/FarmVerdure2/vale/view/fxml/img/c0" + (r.nextInt(5) + 1) + ".png"));
+            character.setImage(new Image("file:/home/vale/intellijProjects/NotFarmVerdura/src/vale/view/fxml/img/c0" + (r.nextInt(5) + 1) + ".png"));
         }
     }
 
@@ -196,6 +201,7 @@ public class Game {
     @FXML
     public void OnCiliegia(MouseEvent event) {
         scelta = cibi.get(Cibo.CILIEGIA);
+        System.out.println(scelta);
     }
 
     @FXML
