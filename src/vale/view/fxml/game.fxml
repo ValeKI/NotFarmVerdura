@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #afeeee;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vale.view.Game">
+   <children>
+      <ToolBar layoutY="285.0" prefHeight="115.0" prefWidth="600.0" style="-fx-border-color: #000000;">
+         <items>
+            <ImageView fitHeight="80.0" fitWidth="80.0" onMouseClicked="#OnCiliegia" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile000.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="10.0" layoutY="22.0" onMouseClicked="#OnPera" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile001.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" onMouseClicked="#OnLatte" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile002.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="104.0" layoutY="32.0" onMouseClicked="#OnPancake" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile003.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="114.0" layoutY="42.0" onMouseClicked="#OnThe" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile004.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="346.0" layoutY="22.0" onMouseClicked="#OnPesca" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile005.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="430.0" layoutY="22.0" onMouseClicked="#OnCola" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile006.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="514.0" layoutY="22.0" onMouseClicked="#OnTorta" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile007.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="524.0" layoutY="32.0" onMouseClicked="#OnGamberiFritti" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile008.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="534.0" layoutY="42.0" onMouseClicked="#OnSpiedino" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile009.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="544.0" layoutY="52.0" onMouseClicked="#OnFormaggio" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile010.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="554.0" layoutY="62.0" onMouseClicked="#OnCiambella" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile011.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="564.0" layoutY="72.0" onMouseClicked="#OnAnanas" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile012.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="574.0" layoutY="82.0" onMouseClicked="#OnHotdog" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile013.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="584.0" layoutY="92.0" onMouseClicked="#OnPollo" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile014.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="594.0" layoutY="102.0" onMouseClicked="#OnCrostata" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile015.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="604.0" layoutY="112.0" onMouseClicked="#OnCioccolata" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile016.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="614.0" layoutY="122.0" onMouseClicked="#OnMela" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile017.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="624.0" layoutY="132.0" onMouseClicked="#OnPopcorn" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile018.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="634.0" layoutY="142.0" onMouseClicked="#OnInsalata" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile019.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="644.0" layoutY="152.0" onMouseClicked="#OnKiwi" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile020.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="654.0" layoutY="162.0" onMouseClicked="#OnPanino" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile021.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="664.0" layoutY="172.0" onMouseClicked="#OnPane" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile022.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="674.0" layoutY="182.0" onMouseClicked="#OnPizza" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile023.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="684.0" layoutY="192.0" onMouseClicked="#OnSushi" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile024.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="694.0" layoutY="202.0" onMouseClicked="#OnPasta" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile025.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="704.0" layoutY="212.0" onMouseClicked="#OnUva" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile026.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="744.0" layoutY="252.0" onMouseClicked="#OnLeccalecca" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile027.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="714.0" layoutY="222.0" onMouseClicked="#OnLimone" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile028.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="724.0" layoutY="232.0" onMouseClicked="#OnBistecca" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile029.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="734.0" layoutY="242.0" onMouseClicked="#OnColazioneSalata" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tile030.png" />
+               </image>
+            </ImageView>
+         </items>
+      </ToolBar>
+      <ImageView fitHeight="58.0" fitWidth="80.0" layoutX="300.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/plate.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="80.0" layoutX="380.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/plate.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="80.0" layoutX="460.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/plate.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="plate1" fitHeight="80.0" fitWidth="80.0" layoutX="300.0" layoutY="182.0" onMouseClicked="#onPlate1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plate2" fitHeight="80.0" fitWidth="80.0" layoutX="380.0" layoutY="182.0" onMouseClicked="#onPlate2" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plate3" fitHeight="80.0" fitWidth="80.0" layoutX="460.0" layoutY="182.0" onMouseClicked="#onPlate3" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="character" fitHeight="261.0" fitWidth="404.0" layoutX="62.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@img/c01.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="mainLabel" alignment="TOP_LEFT" layoutX="300.0" layoutY="48.0" prefHeight="80.0" prefWidth="265.0" style="-fx-border-color: #000000; -fx-background-color: #f5f5f5;" />
+      <Button layoutX="473.0" layoutY="11.0" mnemonicParsing="false" onAction="#tornaAlMenu" text="Torna al menu" />
+   </children>
+</AnchorPane>
